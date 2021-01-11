@@ -8,4 +8,4 @@ def anagram_solution(s1,s2):
 
 #complexity O(n)
 
-print(anagram_solution('python','typhon'))
+print(anagram_solution('pythonz','typhon'))
