@@ -22,16 +22,7 @@ class Stack():
 
 #Function to check pair
  
-def is_match(paren1, paren2):
-    if paren1 == "(" and paren2 == ")":
-        return True 
-    elif paren1 == "{" and paren2 == "}":
-        return True 
-    elif paren1 == "[" and paren2 == "]":
-        return True 
-    
-    else:
-        return False
+
 
 # Function to check a balance is in stack or not
 
@@ -41,7 +32,7 @@ def is_paren_balance(paren_string):
     is_balanced=True
 
     for paren in range(len(paren_string)):
-        if paren_string[paren] in "({[":
+        if paren_string[paren] == "(":
             stack.push(paren_string[paren])
         else:
             if stack.is_empty():
