@@ -14,4 +14,4 @@ def anagramCheck( string1, string2):
         
 
 
-print(anagramCheck('1122', '1132'))
+print(anagramCheck('geeksforgeeks', 'forgeeksgeeks'))
